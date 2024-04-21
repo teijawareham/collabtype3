@@ -1,0 +1,507 @@
+/*Import Web Fonts below here*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* .kanit-thin {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .kanit-extralight {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .kanit-light {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .kanit-medium {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .kanit-semibold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .kanit-bold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .kanit-extrabold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .kanit-#black {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .kanit-thin-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .kanit-extralight-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .kanit-light-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .kanit-regular-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .kanit-medium-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .kanit-semibold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .kanit-bold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .kanit-extrabold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .kanit-#222222-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  } */
+
+/* CSS Reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,main{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;} */
+
+/*Start code below here*/
+
+/* Desktop Styles */
+
+/* BASE ROOT */
+
+* html {
+    font-size: 100%;
+}
+
+* body {
+    font-family: "Kanit", sans-serif;
+    color: black;
+}
+
+/* Typography */
+
+h1 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+    font-size: 2.98em;
+}
+
+h2 {
+    font-size: 2.48em;
+    line-height: 1em;
+    text-transform: capitalize;
+    margin-top: 20px;
+    display: inline;
+    padding-bottom: 10px;
+    letter-spacing: 1x;
+}
+
+h3 {
+    font-size: 2.07em;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h4 {
+    font-size: 1.72em;
+}
+h2, h3, h4 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h5 {
+    font-size: 1.44em;
+}
+
+h6 {
+    font-size: 1.2em;
+}
+
+h5,h6 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;    
+}
+
+p {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 24px;
+
+}
+
+/* Margin Top is 40px and left and right is auto */
+.container {
+    width: 100%;
+    margin: 40px, auto;
+}
+
+/*Navigation */
+
+.navigation {
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    margin-top: 0;
+    height: max-content;
+    /*border: yellow solid;*/
+    
+}
+
+.search-section {
+    flex: 1;
+    text-align: right;
+    /*border: red solid ;*/
+    width: 100vw;
+    padding: 10px;
+}
+
+.lcbo-logo-section {
+    /*border: pink solid;*/
+    width: 95vw;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.logo {
+    max-height: 40px;
+    max-width: auto;
+    /*border: green solid;*/
+    margin: auto;
+  }
+
+  .logo:hover {
+    opacity: .7;
+  }
+
+.nav-bar {
+    /*border: orange solid;*/
+    width: 90vw;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+ul.nav-list {
+    display: flex;
+    /*border: purple solid;*/
+    flex-direction: row;
+    text-align: center;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    flex: 1;
+    font-size: 112%;
+    font-weight: 200;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+nav ul li a:hover{
+    border-bottom:solid 4px rgb(255, 255, 255);
+    padding-bottom: 10px;
+}
+
+/*DIVIDE SPACER*/
+.divide{
+    margin-bottom: 20px;
+}
+
+/*Hero Section*/
+
+#hero-wrapper {
+    width:100%;
+    background-color: #D3D3D3;
+}
+
+#hero {
+    width: 80%;
+    height: 60vh;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    padding: 100px 0 100px 0;
+}
+/*Chevron Icon*/
+
+.fa-chevron-down {
+    margin-top: 60px;
+}
+
+#chevron {
+    color: #222222;
+}
+
+#chevron :hover {
+    opacity: .5;
+}
+/*Animation*/
+
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2024-4-15 17:20:52
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation text-focus-in
+ * ----------------------------------------
+ */
+ @-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+
+/* On Sale Section 
+
+h2 {
+    font-size: 29pt;
+    font-weight: 700;
+}
+
+ol {
+    list-style-type: none;
+}
+
+.productImage {
+    height: 40vh;
+    width: 33%;
+}
+
+a.addcart-button {
+    color: black;
+    font-weight: 400;
+}*/
+
+/* On Sale Section 2*/
+
+#sale-wrapper {
+    width: 100%;
+    background-color: #D3D3D3;
+}
+
+#sale {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.on-sale {
+    border: green solid;
+    text-align: center;
+    max-width: 100%;
+}
+
+ol#cardsContainer {
+    text-align: center;
+    border: blue solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    column-gap: 30px
+}
+
+.slide-wrapper {
+    text-align: center;
+    background-color: #EBEAEA;
+    border: red solid;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.portrait {
+    width: 45%;
+    height: 397;
+    border: rgb(40, 164, 42) solid;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    text-align: left;
+    border: rgb(201, 255, 52) solid;
+
+}
+
+.productImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-name {
+    margin-bottom: 10px;
+}
+
+.item-size {
+    font-weight: 100;
+    font-style: normal;
+}
+
+.price {
+    font-size: 2.07em;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.product-details {
+    font-size: 1.19em;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.text {
+    border: #600fe1 solid;
+    height: max-content;
+    margin-bottom: 10px;
+}
+
+.button1 {
+    margin-top: auto;
+    margin-bottom: 0;
+    border: #e16a0f solid;
+}
+
+.addcart-button {
+    font-size: 1em;
+    padding: 5px 50px;
+    height: 29px;
+    background-color: #222222;
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+/*Shop All*/
+
+#shopall-wrapper {
+    width: 100%;
+    background-color: #D3D3D3;
+}
+
+#shopall {
+    width: 80%;
+    margin: 0 auto;
+    border: #e16a0f solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2 {
+    display: flex;
+    height: 150px;
+    width: 252px;
+    border: #600fe1 solid;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopall-button {
+    font-size: 2.06em;
+    background-color: #ffffff;
+    color: #222222;
+    border-radius: 50px;
+    text-align:center; 
+    justify-content: center;
+    padding: 25px 63px;
+}
