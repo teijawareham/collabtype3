@@ -380,14 +380,14 @@ a.addcart-button {
 }
 
 .on-sale {
-    border: green solid;
+    /* border: green solid; */
     text-align: center;
     max-width: 100%;
 }
 
 ol#cardsContainer {
     text-align: center;
-    border: blue solid;
+    /* border: blue solid; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -399,7 +399,7 @@ ol#cardsContainer {
 .slide-wrapper {
     text-align: center;
     background-color: #EBEAEA;
-    border: red solid;
+    /* border: red solid; */
     justify-content: space-between;
     display: flex;
     flex-direction: row;
@@ -409,7 +409,7 @@ ol#cardsContainer {
 .portrait {
     width: 45%;
     height: 397;
-    border: rgb(40, 164, 42) solid;
+    /* border: rgb(40, 164, 42) solid; */
 
 }
 
@@ -418,7 +418,7 @@ ol#cardsContainer {
     flex-direction: column;
     width: 55%;
     text-align: left;
-    border: rgb(201, 255, 52) solid;
+    /* border: rgb(201, 255, 52) solid; */
 
 }
 
@@ -451,7 +451,7 @@ ol#cardsContainer {
 }
 
 .text {
-    border: #600fe1 solid;
+    /* border: #600fe1 solid; */
     height: max-content;
     margin-bottom: 10px;
 }
@@ -459,7 +459,7 @@ ol#cardsContainer {
 .button1 {
     margin-top: auto;
     margin-bottom: 0;
-    border: #e16a0f solid;
+    /* border: #e16a0f solid; */
 }
 
 .addcart-button {
@@ -481,7 +481,7 @@ ol#cardsContainer {
 #shopall {
     width: 80%;
     margin: 0 auto;
-    border: #e16a0f solid;
+    /* border: #e16a0f solid; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -491,7 +491,7 @@ ol#cardsContainer {
     display: flex;
     height: 150px;
     width: 252px;
-    border: #600fe1 solid;
+    /* border: #600fe1 solid; */
     justify-content: center;
     align-items: center;
 }
@@ -504,4 +504,43 @@ ol#cardsContainer {
     text-align:center; 
     justify-content: center;
     padding: 25px 63px;
+}
+
+/*Details Page*/
+
+#product-wrapper {
+    width: 100%;
+    background-color: #D3D3D3;
+}
+
+#product {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+ol#productcardContainer {
+    text-align: center;
+    /* border: blue solid; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    column-gap: 30px
+}
+
+.productcardWrapper {
+    display: flex;
+    flex-direction: row;
+    /* border: green 2px solid ; */
+}
+
+.productleft {
+      width: 50%;
+}
+
+.productright {
+    width: 50%;
+    text-align: left;
 }
